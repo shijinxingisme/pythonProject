@@ -3,7 +3,7 @@
 import pandas as pd
 
 #读取csv
-file = pd.read_csv('testpython.csv',encoding='gbk')
+file = pd.read_csv('testpython.csv', encoding='gbk')
 print(file)
 
 file.iloc[2,0] = '深圳'
