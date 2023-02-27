@@ -52,9 +52,9 @@ print("describe T: \n",df1.T)       #转置
 print(df3)
 print(df3.sort_index(axis=1))   #列索引排序    columns
 print(df3.sort_index(axis=0))   #行索引排序    index
-
-print(df3.sort_values(by='b'))   # 列值排序   columns
-print(df3.sort_values(by='d'))   # 列值排序   columns
+#
+# print(df3.sort_values(by='b'))   # 列值排序   columns
+# print(df3.sort_values(by='d'))   # 列值排序   columns
 
 #describe 分析 https://zhuanlan.zhihu.com/p/56526297
 
