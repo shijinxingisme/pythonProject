@@ -25,5 +25,19 @@ print(new_ticks)
 plt.xticks(new_ticks)
 plt.yticks([-1,0,1,2,3],
            ['lv1','lv2','lv3','lv4','lv5'])
+#gca 获取当前坐标轴
+ax = plt.gca()
+#设置坐标轴右边设置为红色
+ax.spines['right'].set_color('none')
+#设置坐标轴上边设置为红色
+ax.spines['top'].set_color('none')
+# 把X轴的刻度设置为bottom
+ax.xaxis.set_ticks_position('bottom')
+# 把y轴的刻度设置为left
+ax.yaxis.set_ticks_position('left')
+#设置bottom对应到 0点
+ax.spines['bottom'].set_position(('data',0 ))
+#设置left对应到 0点
+ax.spines['left'].set_position(('data',0))
 
 plt.show()
