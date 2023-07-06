@@ -1,0 +1,1 @@
+{"features": ["company","registered_capital","paid_capital","insured_number","enterprise_scale","national_standard_industry","enterprise_consulting_industry","Risk_quantity","trading_hours","amount","payment_period","prepayment_line"], "targets": ["target"], "model_type": "extra_trees", "target_mapping": {}}

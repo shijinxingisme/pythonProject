@@ -1,7 +1,11 @@
-import gradio as gr
-
-def image_classifier(inp):
-    return {'cat': 0.3, 'dog': 0.7}
-
-demo = gr.Interface(fn=image_classifier, inputs="image", outputs="label")
-demo.launch()
+# import gradio as gr
+#
+#
+# def greet(name):
+#     return "Hello " + name + "!"
+#
+#
+# demo = gr.Interface(fn=greet, inputs="text", outputs="text")
+#
+# if __name__ == "__main__":
+#     demo.launch()
